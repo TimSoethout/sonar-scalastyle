@@ -39,9 +39,9 @@ class ScalastylePluginSpec extends FlatSpec with Matchers {
     assert(testee.getExtensions.contains(classOf[ScalastyleRepository]))
   }
 
-  it should "provide a scala language" in {
-    assert(testee.getExtensions.contains(classOf[Scala]))
-  }
+//  it should "provide a scala language" in {
+//    assert(testee.getExtensions.contains(classOf[Scala]))
+//  }
 
   it should "provide a scalastyle quality profile" in {
     assert(testee.getExtensions.contains(classOf[ScalastyleQualityProfile]))

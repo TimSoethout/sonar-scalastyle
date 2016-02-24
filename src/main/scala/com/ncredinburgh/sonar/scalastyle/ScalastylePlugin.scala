@@ -29,7 +29,7 @@ import com.ncredinburgh.sonar.scalastyle.core.Scala
  */
 class ScalastylePlugin extends SonarPlugin {
   override def getExtensions: java.util.List[Class[_ <: Extension]] = ListBuffer(
-    classOf[Scala],
+    // classOf[Scala],
     classOf[ScalastyleRepository],
     classOf[ScalastyleQualityProfile],
     classOf[ScalastyleSensor]
